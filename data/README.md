@@ -6,7 +6,7 @@
     * Processed tiles: https://huggingface.co/datasets/MatthiasWang/processed-tiles
 
 ## Flood events
-For training and testing, 8 prominent flood events within the last 2 decades or so were selected from the Global Flood Database, with 6 set aside for training and 2 set aside for testing for model evaluation. Ground truth labels obtained are in 250m resolution.
+For training and testing, 8 prominent flood events within the last 2 decades or so were selected from the Global Flood Database, with 6 set aside for training and 2 set aside for testing for model evaluation. Ground truth labels obtained are in 250 m resolution.
 
 ### Training
 * 2005 Yangtze River Floods
@@ -21,7 +21,7 @@ For training and testing, 8 prominent flood events within the last 2 decades or 
 * 2018 Nigeria Floods
 
 ## Flood conditioning factors
-This dataset uses Google Earth Engine to obtain feature maps for the following flood conditioning factors that have been identified to be more pertinent for flood detection. These feature maps are stored in 25m resolution. Where possible, these feature maps are obtained from dates within 6 months prior to the flood event.
+This dataset uses Google Earth Engine to obtain feature maps for the following flood conditioning factors that have been identified to be more pertinent for flood detection. These feature maps are stored in 25 m resolution. Where possible, these feature maps are obtained from dates within 6 months prior to the flood event.
 * Altitude (DEM)
 * Slope (multiplied by 1000 and stored as integer)
 * Land use
