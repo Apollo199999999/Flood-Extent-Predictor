@@ -1,0 +1,2 @@
+# Model training and evaluation
+This folder contains the necessary scripts to train the model, and evaluate it with various metrics. It also includes the definitions for the model architectures and helper utilities to load the dataset and train the model.
